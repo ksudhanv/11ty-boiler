@@ -3,7 +3,7 @@ body {
     color: #EAE8FF;
     background: #14213D;
     padding: 0 40px;
-    text-align: center;
+    text-align: center justify;
 }
 
 nav {
@@ -55,3 +55,21 @@ p {
     display: flex;
     flex-direction: row;
 }
+.col {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.author {
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+.post {
+    text-overflow: ellipsis;
+    font-size: 50px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
